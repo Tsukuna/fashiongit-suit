@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="web_style.css">
+  <script src="nav.js" defer></script>
+  <script src="shop.js" async></script>
+
+  
+
+
+  <link rel="stylesheet" href="ShopStyle.css">
+
+</head>
+<body onload="allBtnClickOnload()">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <section id="header">
+        <div>
+        <a href="index.html"><img src="photos/fashiongit_logo.png"  width="70px" height="" alt="" /></a>
+        </div>
+        <div>
+          <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li id="lg-bag">
+              <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+            </li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+      </section>
+      
+     
+    <section id="page-header" class="about-header mb-5"
+    style="background-image: url('photos/about.png');background-position: center;">
+
+    <!-- <h2 style="margin-top: 150px;">Shop Now</h2>
+
+    <p>Suit Fashion</p> -->
+
+  </section>
+
+  <section id="filter-buttons-container" class="">
+    <div class="filter-title">
+      <h1>Collections</h1>
+    </div>
+    <div class="filter-buttons filter-button-group">
+      <button type="button" id="allItemsBtn"class="normal" data-filter="*">All</button>
+      <button type="button" class="normal" data-filter=".suit">Suit</button>
+      <button type="button" class="normal" data-filter=".shoe">Shoe</button>
+      <button type="button" class="normal" data-filter=".necktie">Necktie</button>
+      <button type="button" class="normal" data-filter=".shirt">Shirt</button>
+      <button type="button" class="normal" data-filter=".watch">Watch</button>
+
+    </div>
+  </section>
+
+  
+  <section id="product1" class="section-p1">
+
+    <div class="pro-container">     
+
+      <div class="pro shirt">
+        <img src="https://suitsoutlets.com/cdn/shop/files/S-S100-WHITE_800x.jpg?v=1686778890" alt="" class=""/>
+        <div class="des">
+          <h5>Slim Fit Dress Cotton Shirt In White</h5>
+
+          <span>SO1S-S100-WHITE</span>
+
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$55.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro suit">
+        <img src="https://suitsoutlets.com/cdn/shop/files/1_1728x_275b7a45-b645-41bc-835d-05dc142531a9_700x.jpg?v=1684424411" alt=""class="" />
+        <div class="des">
+          
+          <h5> Wool Regular Fit Blazer Black Solid Suit</h5>
+          <span>  SO6561-5-ClassicBlazer</span>
+        
+
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$195.99</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro shirt">
+        <img src="https://suitsoutlets.com/cdn/shop/files/S-S100-RED_800x.jpg?v=1686778950" alt="Black Captoe Shoes - MenSuits">
+        <div class="des">
+          <h5> Slim Fit Dress Cotton Shirt In Red</h5>
+
+          <span>  SO1S-S100-RED</span>
+        
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$55.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro necktie">
+        
+        <img src="https://opt.moovweb.net/?quality=90&width=1200&height=&format=webp&img=%2F%2Fshop.thetiebar.com%2Fcdn%2Fshop%2Fproducts%2F33025.jpg%3Fv%3D1613769240" alt="" class="" />
+        <div class="des">
+
+          <h5> Mini Dots Sage Green Tie</h5>
+
+          <span>  SO1R-S100-Green</span>
+       
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$50</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      
+      <div class="pro shoe">
+        <img src="https://suitsoutlets.com/cdn/shop/files/s91tan1_800x.jpg?v=1684277147" alt="" />
+        <div class="des">
+          <h5>Tan Solid Velvet Loafer</h5>
+
+          <span>SO7S-91-TAN</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$69.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro shoe ">
+        <img src="https://suitsoutlets.com/cdn/shop/files/s91aqua1_1080x_5a15243c-5945-4f39-8ced-e98e79d967dc_800x.jpg?v=1684276869" alt="" />
+        <div class="des">
+          <h5>Aqua Solid Velvet Loafer</h5>
+
+          <span>SO7S-91-AQUA</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$69.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+
+      <div class="pro watch">
+        <img src="https://prisma.watch/wp-content/uploads/2020/07/P.2016_L-1.jpg" alt="" />
+        <div class="des">
+          <h5>Prisma P.2016 Alfa Black Watch</h5>
+
+          <span>WO7D-203-BLACK</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$80</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      
+      <div class="pro shirt">
+        <img src="https://suitsoutlets.com/cdn/shop/files/S-S100-SKY-BLUE_600x.jpg?v=1686778492" alt=""  />
+        <div class="des">
+          <h5>Slim Fit Dress Cotton Shirt In Sky Blue</h5>
+
+          <span>SO1S-S100-SKYBLUE</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$55.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro watch ">
+        <img src="https://prisma.watch/wp-content/uploads/2017/05/PRISMA-P1486-HEREN-HORLOGE-TITANIUM-ZILVER-L-1-donker-.jpg" alt="" />
+        <div class="des">
+          <h5>Prisma P.1486 Tailor Brown Watch</h5>
+
+          <span>WO7D-202-BROWN</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$140</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro necktie">
+
+      
+        <img src="https://opt.moovweb.net/?quality=90&width=900&height=&format=webp&img=%2F%2Fshop.thetiebar.com%2Fcdn%2Fshop%2Fproducts%2F33031.jpg%3Fv%3D1613769231" alt=""/>
+        <div class="des">
+          <h5>Bulletin Dot Sage Green Tie</h5>
+
+          <span>SO1R-S100-Green</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$50</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro suit">
+        <div class="mb-5">
+
+        </div>
+        <img src="https://suitsoutlets.com/cdn/shop/products/4Z8A8827_800x.jpg?v=1652470675" class="mb-3">
+        <div class="des">
+          <h5> Men's  Blend Sports Jacket  Green Suit</h5>
+
+          <span> SO6560-2-SLIMBLAZER</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$150.65</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro suit">
+        <img src="https://suitsoutlets.com/cdn/shop/products/2_1944x_c6f32e1b-99b7-4f37-8e32-da49fa9fe359_800x.jpg?v=1652471102" alt="" />
+        <div class="des">
+          <h5>Wool Regular Fit Blazer Solid Dark Navy Suit</h5>
+
+          <span> SO6561-6-ClassicBlazer</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$180</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro shirt">
+        <img src="https://suitsoutlets.com/cdn/shop/files/R-S100-BLACK_800x.jpg?v=1686777215" alt="" />
+       
+        <div class="des">
+          <h5>Slim Fit Dress Cotton Shirt In Black</h5>
+
+          <span>SO1S-S100-BLACK</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$55.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro necktie">
+        <img src="https://opt.moovweb.net/?quality=90&width=900&height=&format=webp&img=%2F%2Fshop.thetiebar.com%2Fcdn%2Fshop%2Fproducts%2F33024.jpg%3Fv%3D1613769236" alt="" />
+        <div class="des">
+          <h5>Grosgrain Solid Sandstone Tie</h5>
+
+          <span>SO1R-S109-GROSGRAIN</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$40</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+   
+      <div class="pro shoe">
+        <img src="https://suitsoutlets.com/cdn/shop/files/s91burg1_800x.jpg?v=1684276480" alt="" />
+        <div class="des">
+          <h5>Burgundy Solid Velvet Loafer</h5>
+
+          <span>  SO7S-91-BURGUNDY</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$65.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro suit">
+        <img src="https://suitsoutlets.com/cdn/shop/products/4Z8A6831_-S_800x.jpg?v=1617298566">
+        <div class="des">
+          <h5> Wool Mini Check Pattern Regular Fit Blazer  Blue Suit</h5>
+
+          <span>SO6556-2-CLASSICBLAZER</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$168.65</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro watch">
+        <img src="https://prisma.watch/wp-content/uploads/2016/12/PRISMA-P1903-HEREN-HORLOGE-EDELSTAAL-ROSEGOUD-DATUM-L.jpg" alt="" />
+        <div class="des">
+          <h5>Prisma Traveller Vigorous Blue Watch</h5>
+
+          <span>WO7D-209-BLUE</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$100</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro watch">
+        
+        <img src="https://prisma.watch/wp-content/uploads/2021/11/P.2035recht.jpg" alt="" />
+        <div class="des">
+          <h5>Prisma  Explorer Sport Leather Watch</h5>
+
+          <span>WO7D-201-LEATHER</span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$80</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+     
+
+      <div class="pro shoe">
+        <img src="https://suitsoutlets.com/cdn/shop/files/s91GREY1_800x.jpg?v=1684276120" alt="" />
+        <div class="des">
+          <h5>Gray Solid Velvet Loafer</h5>
+
+          <span> SO7S-91-GRAY </span>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$65.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+
+      
+
+
+    </div>
+  </section>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Isotope -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+
+
+
+
+  <script>
+    // Shop Page Isotope Filter
+
+    // init Isotope
+    var $grid = $('.pro-container').isotope({
+      // options
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function ()
+    {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+      // $grid.isotope({ layoutMode: 'fitColumns' });
+
+    });
+  </script>
+ 
+   
+      <!-- footer -->
+      <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">About us</div>
+              <p>FashionGit is a sophisticated online destination tailored for the modern gentleman.</p>
+            </div>
+            <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                <a href="#"><i class="fas fa-phone-volume"></i>09-450369699</a>
+              </div>
+              <div class="email">
+                <a href="#"><i class="fas fa-envelope"></i>fashiongit@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Our Services</div>
+            <div><a href="#">Men's Suits</a></div>
+            <div><a href="#">Neckties</a></div>
+            <div><a href="#">Shoes</a></div>
+            <div><a href="#">Personal Styling</a></div>
+            <div><a href="#">Fashion Accessories</a></div>
+            <div><a href="#">Outfit Inspiration</a></div>
+          </div>
+          <div class="right box">
+            <div class="topic">Subscribe us</div>
+            <form action="#">
+              <input type="text" placeholder="Enter email address">
+              <input type="submit" name="" value="Send">
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </form>
+            <div class="bottom">
+              <p> © 2023 <a href="index.html">FashionGit</a> Men Suit Store</p>
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+</body>

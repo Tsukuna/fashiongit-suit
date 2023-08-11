@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="web_style.css">
+<script src="shop.js" async></script>
+<script src="productDetail.js"></script>
+<script src="nav.js" defer></script>
+<script src="cart.js" async></script>
+
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <section id="header">
+      <div>
+      <a href="#"><img src="photos/fashiongit_logo.png"  width="70px" height="" alt="" /></a>
+      </div>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a href="contactUs.html">Contact</a></li>
+          <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+  <!-- Product_detail -->
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+      <img src="" width="100%" id="MainImg" alt="" />
+      
+    </div>
+
+    <div class="single-pro-details">
+      <h6 style="font-size: 18px; font-weight: bold;">Home / T-Shirt</h6>
+      <h5>MANGO</h5>
+      <h4></h4>
+      <h2></h2>
+      <select name="" id="" >
+        <option value="">Select Size</option>
+        <option value="">XXL</option>
+        <option value="">XL</option>
+        <option value="">Large</option>
+        <option value="">Small</option>
+      </select>
+      <input type="number" name="" id="" value="1" min="1" /> 
+      <button class="normal" id="add-to-cart" onclick="addToCartClickedTransfer()">Add To Cart</button>
+      <h4 style="padding: 20px 0 15px 0;">Product Details</h4>
+      <span>The Gildon Ultra Cotton T-shirt is made from a substantial 6.0 oz.
+        per sq. yd. fabric constructed from 100% cotton, this classic fit
+        preshrunk jersey knit provides unmatched comfort with each wear.
+        Featuring a taped neck and shoulder, and a seamless double - needle
+        collar, and available in a range of colors, it offers it all in the
+        ultimate head turning package.
+      </span>
+    </div>
+  </section>
+
+  <!-- Featured products -->
+
+  <section id="product1" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Suit And Necktie Collection</p>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="https://suitsoutlets.com/cdn/shop/products/2_1944x_c6f32e1b-99b7-4f37-8e32-da49fa9fe359_800x.jpg?v=1652471102" alt="" class="mb-3"/>
+        <div class="des">
+          <h5>Wool Regular Fit Blazer Solid Dark Navy Suit</h5>
+
+          <span>SO6561-6-ClassicBlazer</span>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$69.95</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      
+      <div class="pro">
+        <img src="https://opt.moovweb.net/?quality=90&width=900&height=&format=webp&img=%2F%2Fshop.thetiebar.com%2Fcdn%2Fshop%2Fproducts%2F33031.jpg%3Fv%3D1613769231" alt="" class=""/>
+        <div class="des ">
+          <h5>Bulletin Dot Sage Green Tie</h5>
+          <span>SO1R-S100-Green</span>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$50</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro">
+        <img src="https://suitsoutlets.com/cdn/shop/products/4Z8A8827_800x.jpg?v=1652470675" alt="" class="mb-4" />
+        <div class="des">
+          <h5>Men's  Blend Sports Jacket  Green Suit</h5>
+
+          <span>SO6560-2-SLIMBLAZER</span>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$80</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro">
+        <img src="https://opt.moovweb.net/?quality=90&width=1200&height=&format=webp&img=%2F%2Fshop.thetiebar.com%2Fcdn%2Fshop%2Fproducts%2F33025.jpg%3Fv%3D1613769240" alt="" />
+        <div class="des">
+          <h5>Mini Dots Sage Green Tie</h5>
+
+          <span>SO1R-S100-Green</span>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$50</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">About us</div>
+            <p>FashionGit is a sophisticated online destination tailored for the modern gentleman.</p>
+          </div>
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>09-450369699</a>
+            </div>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>fashiongit@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+          <div class="topic">Our Services</div>
+          <div><a href="#">Men's Suits</a></div>
+          <div><a href="#">Neckties</a></div>
+          <div><a href="#">Shoes</a></div>
+          <div><a href="#">Personal Styling</a></div>
+          <div><a href="#">Fashion Accessories</a></div>
+          <div><a href="#">Outfit Inspiration</a></div>
+        </div>
+        <div class="right box">
+          <div class="topic">Subscribe us</div>
+          <form action="#">
+            <input type="text" placeholder="Enter email address">
+            <input type="submit" name="" value="Send">
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </form>
+          <div class="bottom">
+            <p> © 2023 <a href="#">FashionGit</a> Men Suit Store</p>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>

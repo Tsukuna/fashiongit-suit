@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="web_style.css">
+<script src="nav.js" defer></script>
+<script src="cart.js" defer></script>
+
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <section id="header">
+      <div>
+      <a href="index.html"><img src="photos/fashiongit_logo.png"  width="70px" height="" alt="" /></a>
+      </div>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a href="contactUs.html">Contact</a></li>
+          <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header mb-5"
+    style="background-image: url('photos/blue-suit-jackets-hanging.jpg');background-position: center;">
+
+    <!-- <h2>Contact Us</h2>
+
+    <p>Leave a message. We would love to hear from you!</p> -->
+
+  </section>
+     <!-- cart -->
+
+  <section id="cart" class="section-p1">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>REMOVE</td>
+          <td>IMAGE</td>
+          <td>PRODUCT</td>
+          <td>PRICE</td>
+          <td>QUANTITY</td>
+          <td>SUBTOTAL</td>
+        </tr>
+      </thead>
+      <tbody class="cart-items" id="cart-body">
+        <!-- <tr class="cart-row">
+          <td>
+            <i class="far fa-times-circle"></i>
+          </td>
+          <td><img src="img/urbanic_img/tshirt/floral/floral_dress_1.jpg" alt="" /></td>
+          <td>Floral Black Dress</td>
+          <td class="cart-price">₹ 799</td>
+          <td><input type="number" value="1" class="cart-quantity-input" min="1"/></td>
+          <td class="cart-item-subtotal">₹ 799</td>
+        </tr>
+        <tr class="cart-row">
+          <td>
+            <i class="far fa-times-circle"></i>
+          </td>
+          <td><img src="img/urbanic_img/heels/heels_2.jpg" alt="" /></td>
+          <td>Black Pencil Heels</td>
+          <td class="cart-price">₹ 899</td>
+          <td><input type="number" value="2" class="cart-quantity-input" min="1"/></td>
+          <td class="cart-item-subtotal">₹ 1798</td>
+        </tr>
+        <tr class="cart-row">
+          <td>
+            <i class="far fa-times-circle"></i>
+          </td>
+          <td><img src="img/urbanic_img/handbags/bag_6.jpg" alt="" /></td>
+          <td>Red Shoulder Bag</td>
+          <td class="cart-price">₹ 699</td>
+          <td ><input type="number" value="1" class="cart-quantity-input"  min="1"/></td>
+          <td class="cart-item-subtotal">₹ 699</td>
+        </tr> -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- cart-add -->
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon" maxlength="5">
+        <button class="normal" onclick="coupon()"  >Apply</button>
+      </div>
+    </div>
+
+    <div id="subtotal">
+      <h3>Cart Total</h3>
+      <table>
+        <tr>
+          <td>Cart Subtotal</td>
+          <td class="cart-subtotal">$ 2397</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+        <tr>
+          <td><b>Total</b></td>
+          <td class="cart-total" style="font-weight:600;">$ 2397</td>
+        </tr>
+      </table>
+      <a href="#"><button class="normal" id="btn-purchase" >Proceed to Checkout</button></a>
+   
+
+
+    </div>
+  </section>
+
+  
+    <!-- footer -->
+    <footer>
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">About us</div>
+            <p>FashionGit is a sophisticated online destination tailored for the modern gentleman.</p>
+          </div>
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>09-450369699</a>
+            </div>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>fashiongit@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+          <div class="topic">Our Services</div>
+          <div><a href="#">Men's Suits</a></div>
+          <div><a href="#">Neckties</a></div>
+          <div><a href="#">Shoes</a></div>
+          <div><a href="#">Personal Styling</a></div>
+          <div><a href="#">Fashion Accessories</a></div>
+          <div><a href="#">Outfit Inspiration</a></div>
+        </div>
+        <div class="right box">
+          <div class="topic">Subscribe us</div>
+          <form action="#">
+            <input type="text" placeholder="Enter email address">
+            <input type="submit" name="" value="Send">
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </form>
+          <div class="bottom">
+            <p> © 2023 <a href="index.html">FashionGit</a> Men Suit Store</p>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
