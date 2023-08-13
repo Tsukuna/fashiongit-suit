@@ -61,14 +61,7 @@ function openSingleProductPage(event)
   var srcSmallImg1, srcSmallTitle1, srcSmallPrice1;
   var srcSmallImg2, srcSmallTitle2, srcSmallPrice2;
   var srcSmallImg3, srcSmallTitle3, srcSmallPrice3;
-  var srcSmallImg4, srcSmallTitle4, srcSmallPrice4;
-  var srcSmallImg5, srcSmallTitle5, srcSmallPrice5;
-  var srcSmallImg6, srcSmallTitle6, srcSmallPrice6;
-  var srcSmallImg7, srcSmallTitle7, srcSmallPrice7;
-  var srcSmallImg8, srcSmallTitle8, srcSmallPrice8;
-  var srcSmallImg9, srcSmallTitle9, srcSmallPrice9;
-  var srcSmallImg10, srcSmallTitle10, srcSmallPrice10;
-  var srcSmallImg11, srcSmallTitle311, srcSmallPrice11;
+
 
 
   if (title.match("Suit") == "Suit")
@@ -99,7 +92,7 @@ function openSingleProductPage(event)
   }
   else if (title.match("Loafer") == "Loafer")
   {
-    path = "Home / Shoe";
+    path = "Shop / Shoe";
     description = "Our Loafer Leather Shoes boast a full-grain leather upper that exudes sophistication, coupled with a reliable rubber outsole for enhanced durability and traction. Available in a range of sizes from US 7 to 13, and presented in versatile shades of Red, Brown, Grey and Blue , these shoes cater to a variety of preferences. The lace-up closure ensures a secure fit, while the round toe shape and approximately 1-inch heel height contribute to their timeless appeal, making them a versatile choice for both formal and semi-formal occasions."
 
     srcSmallImg0 = "https://suitsoutlets.com/cdn/shop/files/s91tan1_800x.jpg?v=1684277147";
@@ -152,7 +145,7 @@ function openSingleProductPage(event)
 
   else if (title.match("Shirt") == "Shirt")
   {
-    path = "Home / Shirt";
+    path = "Shop / Shirt";
     description = "Introducing our Slim Fit Dress Cotton Shirt, meticulously tailored to offer a contemporary silhouette that enhances your natural body lines. Crafted from luxurious cotton, its premium fabric ensures a gentle touch against your skin while providing exceptional breathability. The timeless design showcases a pointed collar, full button-front closure, and adjustable cuffs, allowing for versatile styling suitable for business meetings, formal events, and even smart-casual occasions. Engineered for convenience, its easy-care attributes make it machine washable, guaranteeing that it retains its impeccable shape and color, wear after wear. Elevate your wardrobe effortlessly with this shirt that embodies the perfect blend of modern sophistication and classic comfort."
 
     srcSmallImg0 = "https://suitsoutlets.com/cdn/shop/files/S-S100-WHITE_800x.jpg?v=1686778890";
@@ -174,7 +167,7 @@ function openSingleProductPage(event)
   }
   else if (title.match("Watch") == "Watch")
   {
-    path = "Home / Watch";
+    path = "Shop / Watch";
     description = "Introducing the Prisma Elegante Chronograph Watch: a harmonious blend of Swiss Quartz movement, a resilient stainless steel case measuring 42mm in diameter, and a sapphire crystal for enhanced durability. With water resistance up to 50 meters, this timepiece seamlessly combines style and functionality. Its chronograph feature adds precision to your timekeeping, while the genuine leather strap, available in versatile colors such as black, brown, and navy, ensures comfort and luxury. Further enhancing its practicality are a date display, luminous hands for low-light visibility, and a secure deployment clasp. Elevate your wristwear game with this meticulously crafted watch, a true testament to FashionGit's commitment to redefining men's fashion. "
 
     srcSmallImg0 = "https://prisma.watch/wp-content/uploads/2020/07/P.2016_L-1.jpg";
@@ -196,7 +189,7 @@ function openSingleProductPage(event)
   }
   else if (title.match("Double") == "Double")
   {
-    path = "Home / Suit";
+    path = "Shop / Suit";
     description = "Introducing our Double Breasted Stripe Suit, meticulously crafted from a premium wool blend that exudes sophistication. This exquisite suit features a timeless charcoal gray hue adorned with subtle white pinstripes, adding a touch of visual intrigue. The jacket boasts a double-breasted design with distinguished peak lapels, while the flat-front pants with a tailored leg offer both comfort and a refined silhouette. Secured with a six-button front closure, this ensemble seamlessly blends classic style with contemporary sensibility. The inclusion of multiple interior and exterior pockets enhances convenience without compromising on elegance. Elevate your formal attire with this distinguished suit that embodies the perfect harmony of craftsmanship and style"
 
     srcSmallImg0 = "https://suitsoutlets.com/cdn/shop/products/dc900_1_brown_1024x_fec72710-7f3a-4282-b6f1-dfe18dcf33e2_900x.jpg?v=1574050073";
@@ -216,51 +209,6 @@ function openSingleProductPage(event)
     srcSmallPrice3 = "$155.95";
 
   }
-  else if (title.match("") == "")
-  {
-    path = "Home / Shoe";
-    description = ""
-
-    srcSmallImg0 = "";
-    srcSmallTitle0 = "";
-    srcSmallPrice0 = "$69.95";
-
-    srcSmallImg1 = "";
-    srcSmallTitle1 = " ";
-    srcSmallPrice1 = "$50";
-
-    srcSmallImg2 = "";
-    srcSmallTitle2 = "";
-    srcSmallPrice2 = "$50 ";
-
-    srcSmallImg3 = "";
-    srcSmallTitle3 = "";
-    srcSmallPrice3 = "$50";
-
-  }
-  else if (title.match("") == "")
-  {
-    path = "Home / ";
-    description = ""
-
-    srcSmallImg0 = "";
-    srcSmallTitle0 = "";
-    srcSmallPrice0 = "";
-
-    srcSmallImg1 = "";
-    srcSmallTitle1 = " ";
-    srcSmallPrice1 = "";
-
-    srcSmallImg2 = "";
-    srcSmallTitle2 = "";
-    srcSmallPrice2 = " ";
-
-    srcSmallImg3 = "";
-    srcSmallTitle3 = "";
-    srcSmallPrice3 = "";
-
-  }
-
 
   
   else
